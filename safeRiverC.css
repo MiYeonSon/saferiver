@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+KR:wght@100;300;400&display=swap');
+
+* {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-family: 'Noto Sans KR', 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+#header {
+    padding: 2%;
+    width: 60%;
+    height: 5%;
+    font-size: 300%;
+    line-height: 90%;
+}
+
+.middleHeader {
+    width: 30%;
+    height: 10%;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 200%;
+    text-align: center;
+}
+
+
+#content {
+    width: 100%;
+}
+
+#info {
+    width: 100%;
+    height: 100%;
+    background-image: url('illustration/BackImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main {
+    width: 60%;
+    height: 85%;
+    padding: 3%;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.9em;
+}
+
+#greetings {
+    width: 100%;
+    height: 18%;
+    margin-top: 3%;
+}
+
+#forecast {
+    margin-top: 2%;
+    width: 100%;
+    height: 40%;
+}
+
+#forecast img {
+    width: 15%;
+    height: 55%;
+    align: center;
+    float: left;
+}
+
+#forecast #elements {
+    width: 60%;
+    height: 40%;
+    margin-left: 2%;
+    margin-top: 1%;
+    float: left;
+}
+
+#forecast #temp {
+    height: 65%;
+    margin-top: 0% !important;
+    font-size: 2.7em !important;
+}
+
+#forecast #tempInfo{
+    margin-top: 3%;
+}
+
+#forecast span{
+    font-weight: 100; font-size : 1em;
+}
+
+
+
+.infomation {
+    width: 40%;
+    height: 30%;
+    border: black 1px solid;
+}
+
+.infomation img {
+    width: 10%;
+    height: 10%;
+}
+
+#behavior {
+    width: 90%;
+    height: 43%;
+    padding: 5%;
+    background-color: #f3f3f3;
+}
+
+.behaviorContent {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.behaviorElements {
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin: 3% auto;
+    padding: 2%;
+}
+
+.behaviorImg {
+    width: 40%;
+    height: 35%;
+}
+
+.behaviorExplain1 {
+    font-weight: normal;
+    height: 38%;
+    font-size: 1.4em;
+    text-align: center;
+    padding-top: 8%;
+
+}
+
+.behaviorExplain2 {
+    font-weight: normal;
+    height: 20%;
+    text-align: center;
+
+}
+
+#course {
+    width: 90%;
+    height: 150%;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+#course .header {
+    height: 2%;
+    margin: 1% auto;
+    padding-bottom: 5%;
+    font-size: 2.2em;
+}
+
+.route, .course_v2 {
+    height: 25%;
+    margin-bottom: 5%;
+}
+
+.route img {
+    margin-left: 20%;
+    width: 42%;
+    height: 102%;
+    float: left;
+}
+
+.course_v2 img {
+    margin: 0%;
+    padding: 0%;
+    width: 42%;
+    height: 102%;
+}
+
+.route .content, .course_v2 .content {
+    width: 23%;
+    margin-left: 3%;
+    padding-top: 2%;
+    float: left;
+}
+
+.course_v2 .content {
+    margin-left: 20%;
+    width: 23%;
+}
+
+.C_header {
+    width: 100%;
+    height: 7%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    float: left;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #4778b4;
+    display: block;
+}
+
+.C_ex {
+    width: 90%;
+    height: 30%;
+    margin-top: 4%;
+    float: left;
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #2f3743;
+    line-height: 1.8em;
+    display: block;
+}
+
+.C_button {
+    width: 28%;
+    height: 10%;
+    margin-top: 25%;
+    font-size: 1.2em;
+    font-weight: normal;
+    display: block;
+    border: none;
+    background-color: #eaeaec;
+    float: left;
+}
+
+
+#footer {
+    width: 100%;
+    height: 40%;
+    margin-top: 50%;
+    color: white;
+    background: #70902F;
+}
+
+#footer .container {
+    width: 60%;
+    height: 20%;
+    margin: 3.5% 20%;
+    padding-top: 4%;
+}
+
+#footer span {
+    float: left;
+    width: 30%;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+#footer #contact {
+    float: right;
+    width: 70%;
+    text-align: right;
+    font-weight: 400;
+}
+
